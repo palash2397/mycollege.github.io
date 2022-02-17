@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> College Website Desgin </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="logo3.png" alt="loading"></a>
+            <div class="nav-links"  id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="index.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            
+        </nav>
+        <h1 class="abouth1"> About Us</h1>
+    </section>
+     
+
+    
+    <section class="about-us">
+        <section class="row">
+            <div class="about-col">
+                <h1> We Are The Leader's </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi laboriosam tempora voluptatibus veritatis molestias et saepe aliquam tenetur, ducimus dolorem fugiat, earum ab magni natus quo. Quidem consectetur repellat autem aut ipsa esse qui officiis. Dolores consectetur et ipsam harum eveniet itaque dignissimos optio. Libero eaque architecto ipsa voluptatum natus.</p>
+                <a href="" class="visit-btn exbtn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about2.png" alt="loading">
+            </div>
+        </section>
+    </section>
+
+       
+             
+
+    <!------------- Footer ---------------- -->
+
+<footer class="sec-footer">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi id, veritatis autem asperiores optio natus eum repellat <br> perferendis! Hic recusandae pariatur temporibus omnis facilis ad eaque provident voluptates nesciunt!</p>
+    <div class="icons">
+        <i class="fa-brands fa-1 fa-facebook"></i>
+        <i class="fa-brands fa-2 fa-twitter"></i>
+        <i class="fa-brands fa-3 fa-instagram"></i>
+        <i class="fa-brands fa-1 fa-linkedin"></i>
+    </div>
+    <p>Made with  <i class="fa-solid fa-heart"></i> by Palash Patil</p>
+</footer>
+
+    
+ <script>
+
+     
+     let navLinks = document.getElementById("navLinks");
+     function showmenu(){
+         navLinks.style.right ="0";
+        
+        
+     }
+     function hidemenu(){
+         navLinks.style.right ="-250px";
+        
+        
+     } 
+
+ </script>           
+<script src="https://kit.fontawesome.com/aed7d8b92e.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> College Website Desgin </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="logo3.png" alt="loading"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="index.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <h1 class="abouth1"> Contact Us</h1>
+    </section>
+
+    <!--   Contact Section -->
+    <section class="location">
+        <h1 >Location</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59508.26421233925!2d78.91254827910159!3d21.2212777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4e95e9bf65721%3A0x395de776cf0f59d7!2sGuru%20Nanak%20Institute%20of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1645015241396!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-contact fa-house"></i>
+                    <span>
+                        <h5>Ring Road Kalmeshwar</h5>
+                        <p>Nagpur, Maharashtra</p>
+                    </span>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid  fa-contact fa-phone"></i>
+                    <span>
+                        <h5>+1 0123456789</h5>
+                        <p>Monday to Saturday, 9AM to 4PM</p>
+                    </span>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-contact fa-envelope"></i>
+                    <span>
+                        <h5>info@gurrunanak.com</h5>
+                        <p>for any quary email us</p>
+                    </span>
+                    
+                </div>
+
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <label for="name">Name :</label>
+                    <input type="text" placeholder="Enter your name" required>
+
+                    <label for="email">Email :</label>
+                    <input type="email" placeholder="Enter your email" required>
+
+                    <label for="subject">Subject :</label>
+                    <input type="text" placeholder="Enter your subject" required>
+
+                    <label for="massege">Massege :</label>
+                   <textarea type="text" placeholder="Massege" rows="8"></textarea>
+                   <button class="visit-btn" type="submit"> Send Massege</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!------------- Footer ---------------- -->
+
+    <footer class="sec-footer">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum commodi id, veritatis autem asperiores optio
+            natus eum repellat <br> perferendis! Hic recusandae pariatur temporibus omnis facilis ad eaque provident
+            voluptates nesciunt!</p>
+        <div class="icons">
+            <i class="fa-brands fa-1 fa-facebook"></i>
+            <i class="fa-brands fa-2 fa-twitter"></i>
+            <i class="fa-brands fa-3 fa-instagram"></i>
+            <i class="fa-brands fa-1 fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Palash Patil</p>
+    </footer>
+
+
+    <script>
+
+
+   let navLinks = document.getElementById("navLinks");
+     function showmenu(){
+         navLinks.style.right ="0";
+        
+        
+     }
+     function hidemenu(){
+         navLinks.style.right ="-250px";
+        
+        
+     }
+
+    </script>
+    <script src="https://kit.fontawesome.com/aed7d8b92e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
